@@ -1,5 +1,6 @@
 # Certificard Imersão DEV
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/Timacedoc/pen/GRrWPbo](https://codepen.io/Timacedoc/pen/GRrWPbo).
+Cartão criado na ultima aula da imersão DEV da alura.
 
+Vou colocando os projetos à medida que for refatorando e deixando tudo redondo.
 
