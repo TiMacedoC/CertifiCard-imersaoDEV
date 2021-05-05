@@ -49,3 +49,12 @@ img{
   display: block;
   transform: translateY(-50%)  
 }
+
+/* a{
+  text-decoration: none;
+} */
+
+a:hover{
+  color:#611111;
+  text-decoration: underline;
+}
