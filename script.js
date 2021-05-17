@@ -27,7 +27,6 @@ const social =
 function changeContent() {
     if (check) {
         getHTML.insertAdjacentHTML('afterbegin', social);
-        console.log(getHTML)
         check = false;
     }
 }
