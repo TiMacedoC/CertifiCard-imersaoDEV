@@ -3,6 +3,11 @@ body{
   font-family: 'Open Sans', sans-serif;  
 }
 
+h1:hover{
+  color:#611111;
+  cursor: pointer;
+}
+
 section{
   -webkit-box-shadow: 5px 5px 15px 8px rgba(0,0,0,0.58); 
 box-shadow: 5px 5px 15px 8px rgba(0,0,0,0.6);
@@ -21,10 +26,6 @@ section h1{
   font-size: 20px;  
 }
 
-a{
-  color: black;
-}
-
 header{
   background-image: url('https://i.pinimg.com/564x/b1/39/96/b13996f663880163dcb0918023222562.jpg');
   background-size: 55%;
@@ -39,7 +40,19 @@ div{
   border-radius: 7px;
 }
 
-img{
+img.logo{
+  width: 30px;
+}
+
+img.logo:hover{
+  opacity: 0.6;
+}
+
+h2{
+  margin-top: 1px;
+}
+
+img#profile{
   border-radius: 100%;
   border: 8px solid white;
   width: 150px;
@@ -50,11 +63,12 @@ img{
   transform: translateY(-50%)  
 }
 
-/* a{
+a{
+  color: black;
   text-decoration: none;
-} */
+}
 
-a:hover{
+a.projectLink:hover{
   color:#611111;
   text-decoration: underline;
 }

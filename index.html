@@ -9,35 +9,41 @@
 </head>
 
 <body>
-  <!-- partial:index.partial.html -->
+
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 
   <html>
   <section>
     <header>
-      <img style="width: 500px hight: 500px"
+      <img id="profile" style="width: 500px hight: 500px"
         src="https://lh3.googleusercontent.com/qSfIZdyWhAQkPPyQcviXbW7jC1VvSu5PSEebxf90QTkxrMLZnwF7lTQsKo5MaLw0ueHC30GXvWM4atKUQlVZ56sKArllhHP0tnHZiX4iA4sQOn10AjVdj9MW2kDV9L7ZEX-EQXyhfOT44gmRX9YNRt6n7Y2Xc5i2kvY1LrjgJp_apfYZy-84Nk3O55oZdMjJK0V1JnSW4jnjoE_E4K8b_wiqAx2eHBNHSAGo7RUGWKl4sxDyBG4Z1AfelNEHURk3as8o3lJZmoHMBf-8W1Q3juUpbvnQf8myy3_TQ1FsnmJm16rOzB2CIJcFzK0uQRsaJ1glF44gstZxNH2HQMkumi2eBpdVoqvgQFAzOL3DBqZiIth7rrdWANU4gfr25ELS4PIjCTkgPkI20to349jJpecXU7linlb_mxT8fnkDdp0H3u2OrREJhmjZ2wXro3a4N0aY1VKN_pBDz0jPWaRF51A6AzP_psKHjxDklC1xsU-W-k9wH-8IFhBtaI-WTHNuM6DncVp3sz6_KB5Ai680pBGQeyjr75Q21qc8wU8UJZtDDRH1gYuw-SaWyk77fNxuZfaPnI8tEHN0KhmomRFgUBwZuxRFFLcEPmxmSjaHaL307D4Yd8YHKyjDyaECvM8ZT9cLoV5h0xhsHTP-Strb_Mzbh0xZkdVQeGwqwiakLgoBfDAPMODw-F0fKkLPGi5Gug_xVPO7SNpINT-TNYvXNNm5=s927-no?authuser=0">
     </header>
-    <h1>Tiago Macedo (@TiMacedoC)</h1>
+    <h1 onclick="changeContent()">Tiago Macedo (@TiMacedoC)</h1>
 
 
 
-    <div>
+    <div id='mainContent'>
+
       <h2>Insígnias da imersao.dev</h2>
       <ol>
-        <li><a href="https://codepen.io/Timacedoc/full/mdRbXNG" target="_blank">💰 Conversor de Moedas</a></li>
-        <li><a href="https://codepen.io/Timacedoc/full/WNRZXjZ" target="_blank">🔢 Calculadora</a> ⭐</li>
+        <li><a class="projectLink" href="https://codepen.io/Timacedoc/full/mdRbXNG" target="_blank">💰 Conversor de
+            Moedas</a></li>
+        <li><a class="projectLink" href="https://codepen.io/Timacedoc/full/WNRZXjZ" target="_blank">🔢 Calculadora</a> ⭐
+        </li>
         <li>🔮 Mentalista</li>
         <li>🎬 Aluraflix</li>
         <li>🏆 Tabela de Classificação</li>
-        <li><a href="https://codepen.io/Timacedoc/full/OJWppmV" target="_blank">🃏 Supertrunfo</a></li>
-        <li><a href="https://codepen.io/Timacedoc/full/GRrWPbo" target="_blank">🌐 Certificard</a></li>
+        <li><a class="projectLink" href="https://codepen.io/Timacedoc/full/OJWppmV" target="_blank">🃏 Supertrunfo</a>
+        </li>
+        <li><a class="projectLink" href="https://codepen.io/Timacedoc/full/GRrWPbo" target="_blank">🌐 Certificard</a>
+        </li>
       </ol>
 
       <h2>Outras Insígnias</h2>
       <ol>
-        <li><a href="https://codepen.io/Timacedoc/full/zYNQKxd" target="_blank">🐤 FlappyBird by DevSoutinho </a> ⭐</li>
+        <li><a class="projectLink" href="https://codepen.io/Timacedoc/full/zYNQKxd" target="_blank">🐤 FlappyBird by
+            DevSoutinho </a> ⭐</li>
       </ol>
 
     </div>
@@ -45,7 +51,9 @@
   </section>
 
   </html>
-  <!-- partial -->
+  <script src="script.js">
+
+  </script>
 
 </body>
 
