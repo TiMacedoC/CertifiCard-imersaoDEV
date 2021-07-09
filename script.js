@@ -18,7 +18,7 @@ const social =
         alt="github logo">
     </a>
 
-    <a href="https://www.linkedin.com/in/tiago-macedo-de-castro-845008208/" target="_blank">
+    <a href="https://www.linkedin.com/in/timacedoc/" target="_blank">
       <img class="logo" src="https://docs.google.com/uc?export=download&id=12Q1Lg0VO8K6GerG-e_amrX7DM1TikFBI"
         alt="linkedin logo">
     </a>
