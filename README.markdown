@@ -1,6 +1,5 @@
 # Certificard Imersão DEV
 
-Cartão criado na ultima aula da imersão DEV da alura.
+### Projeto rodando [aqui](https://timacedoc.github.io/CertifiCard-imersaoDEV/)
 
-Vou colocando os projetos à medida que for refatorando e deixando tudo redondo.
-
+- Projeto feito como conclusão da Imersão DEV, evento realizado pela ALURA
